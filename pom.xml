@@ -31,6 +31,22 @@
 			<version>4.10</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>jenkins-release-repo</name>
+	      <url>http://3.109.133.114:8081/repository/jenkins-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>jenkins-snapshot-repo</name>
+	      <url>http://3.109.133.114:8081/repository/jenkins-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	
 	<build>
 		<finalName>LoginWebApp</finalName>
 	</build>
