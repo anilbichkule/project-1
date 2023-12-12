@@ -35,14 +35,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>jenkins-release-repo</name>
-	      <url>http://3.109.133.114:8081/repository/jenkins-release/</url>
+	      <name>Jenkins-Release</name>
+	      <url>http://13.126.239.36:8081/repository/Jenkins-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>jenkins-snapshot-repo</name>
-	      <url>http://3.109.133.114:8081/repository/jenkins-snapshot/</url>
+	      <name>Jenkins-Snapshot</name>
+	      <url>http://13.126.239.36:8081/repository/Jenkins-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
